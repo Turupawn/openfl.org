@@ -4,7 +4,7 @@ title: Handling Mouse Events
 
 ## Setup
 
-_You may find a completed "features/events/HandlingMouseEvent" sample project for [TypeScript](https://github.com/openfl/openfl-samples-ts), [Haxe](https://github.com/openfl/openfl-samples/tree/master/npm), [ES6](https://github.com/openfl/openfl-samples-es6) or [ES5](https://github.com/openfl/openfl-samples-es5) online, the following describes how to handle mouse events from an empty project._
+_You may find a completed "features/events/HandlingMouseEvent" sample project for [TypeScript](https://github.com/openfl/openfl-samples-ts), [Haxe](https://github.com/openfl/openfl-samples-haxe), [ES6](https://github.com/openfl/openfl-samples-es6) or [ES5](https://github.com/openfl/openfl-samples-es5) online, the following describes how to handle mouse events from an empty project._
 
 Run the following commands:
 
@@ -349,8 +349,6 @@ sprite.addEventListener (MouseEvent.MOUSE_UP, function (e) {
 ```
 {% endcapture %}
 {% include code.md %}
-
-Now, if you click on the icon, you should get a browser `alert` message that you clicked the object.
 
 {% capture embed %}
 var Bitmap = openfl.display.Bitmap;
